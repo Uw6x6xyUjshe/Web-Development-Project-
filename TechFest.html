@@ -1,0 +1,182 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styleee.css">
+    <title>Tech Nova - XYZ  College</title>
+    <body>
+
+    <header>
+        <h1>Tech Nova</h1>
+        <p>Create,Connect,Collaborate</p>
+        <p>Annual Technology Club of XYZ College</p>
+    </header>
+
+    <main class="container">
+        
+        <section id="about">
+            <h2 class="section-title">About TechNova</h2>
+            <hr class="section-divider">
+            
+            <p class="about-text">
+                TechNova is an exciting technology event organized by XYZ College. The event provides students with an opportunity to demonstrate their technical knowledge, creativity, and problem-solving skills.
+            </p>
+            <p class="about-text">
+                Students from different courses can participate in coding competitions, web development challenges, quizzes, project exhibitions, and other exciting activities. The event is designed to encourage innovation, teamwork, and learning.
+            </p>
+
+            <div class="image-wrapper">
+                <img src="https://img.magnific.com/premium-photo/blue-background-with-grid-that-says-blue_1045163-16644.jpg?semt=ais_hybrid&w=740&q=80" alt="Students collaborating at TechNova">
+            </div>
+
+            <p class="external-link">
+                Learn more about web standards at <a href="https://github.com/Uw6x6xyUjshe/Computer-and-ipsec-" target="_blank" rel="noopener noreferrer">My GitHub Profile</a>.
+            </p>
+        </section>
+
+        <section id="events">
+            <h2 class="section-title">Events & Opportunities</h2>
+            <hr class="section-divider">
+
+            <h3 class="sub-heading">Available Opportunities</h3>
+            <ul class="content-list">
+                <li>BUg HUnting</li>
+                <li>Coding Challenge</li>
+                <li>Quiz HUnting</li>
+                <li>Project Exhibition</li>
+                <li>Poster Making Competition</li>
+            </ul>
+
+            <h3 class="sub-heading">How to Apply</h3>
+            <ol class="content-list">
+                <li>Choose your preferred Challeng.</li>
+                <li>Complete the registration form.</li>
+                <li>Submit.</li>
+                <li>Receive confirmation Newsletter `from the organizers.</li>
+                <li>Attend the event on the scheduled date.</li>
+            </ol>
+        </section>
+
+        <section id="schedule">
+            <h2 class="section-title">TechNova Schedule</h2>
+            <hr class="section-divider">
+
+            <div class="table-responsive">
+                <table class="schedule-table">
+                    <thead>
+                        <tr>
+                            <th>Time</th>
+                            <th>Event</th>
+                            <th>Venue</th>
+                            <th>Incharge</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <tr>
+                            <td>09:00 AM</td>
+                            <td>Inauguration</td>
+                            <td>Auditorium</td>
+                            <td>John Duckett</td>
+                        </tr>
+                        <tr>
+                            <td>10:00 AM</td>
+                            <td>Coding Competition</td>
+                            <td>Computer Lab 1</td>
+                            <td>David Johnson</td>
+                        </tr>
+                        <tr>
+                            <td>11:30 AM</td>
+                            <td>Web Development Challenge</td>
+                            <td>TechnNOva Lab 2</td>
+                            <td>Eliza JUilet</td>
+                        </tr>
+                    </tbody>
+                </table>
+            </div>
+        </section>
+
+        <section id="registration">
+            <h2 class="section-title">TechNova Registration</h2>
+            <hr class="section-divider">
+
+            <div class="form-card">
+                <form action="#" method="POST" onsubmit="event.preventDefault();">
+                    
+                    <div class="form-group">
+                        <label for="fullName">Full Name:</label>
+                        <input type="text" id="fullName" class="form-control" placeholder="Enter your full name">
+                    </div>
+
+                    <div class="form-group">
+                        <label for="email">Email Address:</label>
+                        <input type="email" id="email" class="form-control" placeholder="Enter your email">
+                    </div>
+
+                    <div class="form-group">
+                        <label for="phone">Phone Number:</label>
+                        <input type="tel" id="phone" class="form-control" placeholder="Enter your phone number">
+                    </div>
+
+                    <div class="form-group">
+                        <label>Gender:</label>
+                        <div class="radio-group">
+                            <label class="radio-option">
+                                <input type="radio" name="gender" value="male"> Male
+                            </label>
+                            <label class="radio-option">
+                                <input type="radio" name="gender" value="female"> Female
+                            </label>
+                            <label class="radio-option">
+                                <input type="radio" name="gender" value="other"> Other
+                            </label>
+                        </div>
+                    </div>
+
+                    <div class="form-group">
+                        <label for="course">Course:</label>
+                        <select id="course" class="form-control">
+                            <option value="" disabled selected>Select Course</option>
+                            <option value="btech">ComptiA ++</option>
+                            <option value="bca">BCA</option>
+                            <option value="bsc">B.Sc Computer Science</option>
+                            <option value="mca">MCA</option>
+                        </select>
+                    </div>
+
+                    <div class="form-group">
+                        <label for="year">Year:</label>
+                        <select id="year" class="form-control">
+                            <option value="" disabled selected>Select Year</option>
+                            <option value="1">1st Year</option>
+                            <option value="2">2nd Year</option>
+                            <option value="3">3rd Year</option>
+                            <option value="4">4th Year</option>
+                        </select>
+                    </div>
+
+                    <div class="form-group">
+                        <label for="event">Select Event:</label>
+                        <select id="event" class="form-control">
+                            <option value="" disabled selected>Select an Event</option>
+                            <option value="webdev">Web Development Challenge</option>
+                            <option value="coding">Coding Competition</option>
+                            <option value="quiz">Quiz Competition</option>
+                            <option value="project">Project Exhibition</option>
+                            <option value="poster">Poster Making Competition</option>
+                        </select>
+                    </div>
+
+                    <div class="form-group">
+                        <label for="address">Address:</label>
+                        <textarea id="address" class="form-control" placeholder="Enter your address"></textarea>
+                    </div>
+
+                    <div class="form-group">
+                        <label for="comments">Comments:</label>
+                        <textarea id="comments" class="form-control" placeholder="Enter your comments or questions"></textarea>
+                    </div>
+
+                    <div class="button-group">
+
+</head>

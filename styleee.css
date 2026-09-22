@@ -1,0 +1,271 @@
+
+
+        body {
+            font-family: 'Times New Roman', Times, serif, system-ui, sans-serif;
+            color: #af1313;
+            background-color: #ffffff;
+            line-height: 1.6;
+        }
+
+        .container {
+            max-width: 1100px;
+            margin: 0 auto;
+            padding: 20px 24px;
+        }
+
+        header {
+            background-color: #dd0937;
+            color: #a66060;
+            text-align: center;
+            padding: 45px 20px;
+        }
+
+        header h1 {
+            font-size: 2.6rem;
+            font-weight: bold;
+            margin-bottom: 12px;
+            letter-spacing: 0.5px;
+            color: #1a365d;
+        }
+
+        header p {
+            font-size: 1.1rem;
+            margin-bottom: 4px;
+            opacity: 0.95;
+            color: #1a365d;       }
+
+        section {
+            margin-bottom: 40px;
+        }
+
+        .section-title {
+            color: #ad2f16;
+            font-size: 1.8rem;
+            font-weight: bold;
+            margin-bottom: 8px;
+        }
+
+        .section-divider {
+            border: none;
+            border-top: 3px solid #3b82f6;
+            margin-bottom: 24px;
+        }
+
+        .about-text {
+            font-size: 1.05rem;
+            margin-bottom: 16px;
+            color: #2d2d2d;
+        }
+
+        .image-wrapper {
+            text-align: center;
+            margin: 28px 0;
+        }
+
+        .image-wrapper img {
+            max-width: 100%;
+            width: 480px;
+            height: auto;
+            border-radius: 12px;
+            border: 2px solid #e04415;
+            box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+        }
+
+        .external-link {
+            font-size: 0.95rem;
+            margin-top: 15px;
+        }
+
+        .external-link a {
+            color: #2563eb;
+            text-decoration: underline;
+        }
+
+        .sub-heading {
+            color: #1f3b8b;
+            font-size: 1.25rem;
+            font-weight: bold;
+            margin: 20px 0 10px 0;
+        }
+
+        .content-list {
+            padding-left: 28px;
+            margin-bottom: 20px;
+        }
+
+        .content-list li {
+            margin-bottom: 8px;
+            font-size: 1rem;
+        }
+
+        .table-responsive {
+            overflow-x: auto;
+        }
+
+        .schedule-table {
+            width: 100%;
+            border-collapse: collapse;
+            margin-top: 10px;
+        }
+
+        .schedule-table th {
+            background-color: #df5d12;
+            color: #ffffff;
+            font-weight: bold;
+            text-align: left;
+            padding: 14px 18px;
+            border: 1px solid #1f3b8b;
+        }
+
+        .schedule-table td {
+            padding: 12px 18px;
+            border: 1px solid #e5e7eb;
+            font-size: 0.98rem;
+        }
+
+        .schedule-table tr:nth-child(even) {
+            background-color: #f8fafc;
+        }
+
+        .schedule-table tr:hover {
+            background-color: #f1f5f9;
+        }
+
+        .form-card {
+            background-color: #f0f5ff;
+            border: 1px solid #d0e1fd;
+            border-radius: 8px;
+            padding: 24px;
+        }
+
+        .form-group {
+            margin-bottom: 18px;
+        }
+
+        .form-group label {
+            display: block;
+            font-weight: bold;
+            color: #b03715;
+            margin-bottom: 6px;
+            font-size: 0.98rem;
+        }
+
+        .form-control {
+            width: 100%;
+            padding: 10px 14px;
+            border: 1px solid #cbd5e1;
+            border-radius: 6px;
+            font-family: inherit;
+            font-size: 0.95rem;
+            background-color: #ffffff;
+            transition: border-color 0.2s, box-shadow 0.2s;
+        }
+
+        .form-control:focus {
+            outline: none;
+            border-color: #2563eb;
+            box-shadow: 0 0 0 3px rgba(37, 99, 235, 0.15);
+        }
+
+        .radio-group {
+            display: flex;
+            gap: 20px;
+            align-items: center;
+            padding-top: 4px;
+        }
+
+        .radio-option {
+            display: flex;
+            align-items: center;
+            gap: 6px;
+            font-weight: normal;
+            cursor: pointer;
+        }
+
+        textarea.form-control {
+            resize: vertical;
+            min-height: 80px;
+        }
+
+        .button-group {
+            display: flex;
+            gap: 12px;
+            margin-top: 24px;
+        }
+
+        .btn {
+            padding: 10px 24px;
+            border: none;
+            border-radius: 6px;
+            font-weight: bold;
+            font-size: 0.95rem;
+            cursor: pointer;
+            transition: background-color 0.2s, opacity 0.2s;
+        }
+
+        .btn-primary {
+            background-color: #2563eb;
+            color: #ffffff;
+        }
+
+        .btn-primary:hover {
+            background-color: #1d4ed8;
+        }
+
+        .btn-secondary {
+            background-color: #64748b;
+            color: #ffffff;
+        }
+
+        .btn-secondary:hover {
+            background-color: #475569;
+        }
+
+        .contact-details p {
+            margin-bottom: 8px;
+            font-size: 1rem;
+        }
+
+        .contact-details strong {
+            color: #1a1a1a;
+            width: 140px;
+            display: inline-block;
+        }
+
+        footer {
+            background-color: #0f172a;
+            color: #ffffff;
+            text-align: center;
+            padding: 24px 20px;
+            margin-top: 40px;
+        }
+
+        footer p {
+            font-size: 0.95rem;
+            line-height: 1.5;
+            opacity: 0.9;
+        }
+
+        @media (max-width: 640px) {
+            header h1 {
+                font-size: 2rem;
+            }
+            
+            .section-title {
+                font-size: 1.5rem;
+            }
+
+            .contact-details strong {
+                display: block;
+                width: 100%;
+                margin-bottom: 2px;
+            }
+
+            .button-group {
+                flex-direction: column;
+            }
+
+            .btn {
+                width: 100%;
+            }
+        }
